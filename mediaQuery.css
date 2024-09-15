@@ -1,0 +1,319 @@
+@media (max-width: 1050px){
+    body{
+        display: flex;
+        justify-content: center;
+    }
+    .left{
+        width: 65vw;
+        /* background-color: red; */
+    }
+    .right{
+        width: 28vw;
+        /* background-color: blue; */
+    }
+    .food-product{
+        width: 20vw;
+        height: 27.27vw;
+    }
+    .add-to-cart-number{
+        margin-top: 17.3vw;
+        margin-left: 4vw;
+        border-radius: 50px;
+        width: 13vw;
+        height: 3.7vw;
+    
+    }
+    .decreement{
+        width: 1.4vw;
+        height: 1.4vw;
+        margin-left: 1vw;
+    }
+    .increement{
+        width: 1.4vw;
+        height: 1.4vw;
+        margin-right: 1vw;
+    }
+    .food-info{
+        height: 4.5vw;
+    }
+    .number-items{
+        font-size: 11px;
+    }
+    .general-name{
+        font-size: 12px;
+    }
+    .specific-name{
+        font-size: 14px;
+    }
+    .price{
+        font-size: 14px;
+    }
+    .img-add-to-cart{
+        width: 1.81vw;
+    }
+    .add-to-cart-word{
+        font-size: 1.09vw;
+    }
+    
+}
+
+@media (max-width: 920px){
+    .general-name{
+        font-size: 11px;
+    }
+    .specific-name{
+        font-size: 12.5px;
+    }
+    .price{
+        font-size: 12.5px;
+    }
+}
+
+
+@media (max-width: 830px){
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 50px;
+        padding-bottom: 50px;
+        padding-top: 30px;
+    }
+    
+    .left{
+        width: 95vw;
+    }
+    .right{
+        width: 50vw;
+        align-self: center;
+    }
+    .food-product{
+        width: 28vw;
+        /* height: 39.54vw; */
+        height: 37.54vw;
+    }
+    .add-to-cart-number{
+        margin-top: 24.22vw;
+        margin-left: 5.6vw;
+        border-radius: 50px;
+        width: 18.2vw;
+        height: 5.18vw;
+    
+    }
+    .decreement{
+        width: 1.96vw;
+        height: 1.96vw;
+        margin-left: 1.4vw;
+    }
+    .increement{
+        width: 1.96vw;
+        height: 1.96vw;
+        margin-right: 1.4vw;
+    }
+    .food-info{
+        height: 6.3vw;
+    }
+    .number-items{
+        font-size: 1.4vw;
+    }
+    .general-name{
+        /* font-size: 1.5vw; */
+        font-size: 1.55vw;
+    }
+    .specific-name{
+        font-size: 1.80vw;
+    }
+    .price{
+        font-size: 1.80vw;
+    }
+    .img-add-to-cart{
+        width: 2.534vw;
+    }
+    .add-to-cart-word{
+        font-size: 1.526vw;
+    }
+    .confirm-order-box{
+        gap: 20px; 
+        max-height: 93vh;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+    .your-confirm-orders{
+        max-height: 400px;
+        overflow-y: auto;
+    }
+
+
+}
+
+
+@media (max-width: 600px){
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 50px;
+        padding-bottom: 50px;
+        padding-top: 30px;
+    }
+    
+    .left{
+        width: 95vw;
+    }
+    .right{
+        width: 80vw;
+        align-self: center;
+    }
+    .food-product{
+        width: 45vw;
+        height: 45.332vw;
+    }
+    .add-to-cart-number{
+        margin-top: 24.925vw;
+        margin-left: 9vw;
+        border-radius: 50px;
+        width: 29.25vw;
+        height: 7.32vw;
+    }
+    .decreement{
+        width: 3.15vw;
+        height: 3.15vw;
+        margin-left: 2.25vw;
+    }
+    .increement{
+        width: 3.15vw;
+        height: 3.15vw;
+        margin-right: 2.25vw;
+    }
+    .food-info{
+        height: 10.125vw;
+    }
+    .number-items{
+        font-size: 2.25vw;
+    }
+    .general-name{
+        /* font-size: 1.5vw; */
+        font-size: 2.5vw;
+    }
+    .specific-name{
+        font-size: 2.9vw;
+    }
+    .price{
+        font-size: 2.9vw;
+    }
+    .img-add-to-cart{
+        width: 4.0725vw;
+    }
+    .add-to-cart-word{
+        font-size: 2.4525vw;
+    }
+    .confirm-order-box{
+        gap: 20px; 
+        max-height: 93vh;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+    .your-confirm-orders{
+        max-height: 400px;
+        overflow-y: auto;
+    }
+    .your-confirm-orders::-webkit-scrollbar {
+        display: none;
+    }
+
+}
+
+
+@media (max-width: 430px){
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 50px;
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+    
+    .left{
+        width: 90vw;
+    }
+    .right{
+        width: 90vw;
+        align-self: center;
+    }
+    .food-products-box{
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+    .food-product{
+        width: 90vw;
+        height: 91.367vw;
+
+    }
+    .add-to-cart-number{
+        margin-top: 50.175vw;
+        margin-left: 15vw;
+        border-radius: 50px;
+        width: 61.75vw;
+        height: 14.575vw;
+    
+    }
+    .decreement{
+        width: 6.65vw;
+        height: 6.65vw;
+        margin-left: 4.75vw;
+    }
+    .increement{
+        width: 6.65vw;
+        height: 6.65vw;
+        margin-right: 4.75vw;
+    }
+    .food-info{
+        height: 21.375vw;
+    }
+    .number-items{
+        font-size: 4.75vw;
+    }
+    .general-name{
+        font-size: 5.2589vw;
+    }
+    .specific-name{
+        font-size: 6.107vw;
+    }
+    .price{
+        font-size: 6.107vw;
+    }
+    .img-add-to-cart{
+        width: 8.5975vw;
+    }
+    .add-to-cart-word{
+        font-size: 5.1775vw;
+    }
+    .confirm-order-box{
+        width: 90vw;
+        gap: 20px; 
+        max-height: 93vh;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+    .your-confirm-orders{
+        max-height: 300px;
+        overflow-y: auto;
+    }
+}
+
+
+
